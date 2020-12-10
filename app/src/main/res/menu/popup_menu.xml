@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/NOTIFY_ON"
+            android:title="Turn notify on"
+            />
+        <item
+            android:id="@+id/NOTIFY_OFF"
+            android:title="Turn notify off"
+            />
+    </group>
+
+</menu>

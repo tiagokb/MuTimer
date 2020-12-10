@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="@color/colorPrimaryLight">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/popupmenu"
+            android:src="@drawable/ic_popupmenu_dropdown"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_toRightOf="@id/popupmenu"
+            android:layout_toEndOf="@id/popupmenu"
+
+            android:id="@+id/event_name"
+
+            android:text="Blood Castle"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/textColorPrimary"
+            android:padding="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/event_date"
+            android:layout_toLeftOf="@id/event_date"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+
+            android:text="Fri. 14pm"
+            android:textColor="@color/textColorPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="4dp"
+
+            android:id="@+id/event_date"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:text="00:00:00"
+            android:textColor="@color/textColorPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="4dp"
+
+            android:id="@+id/countdown_timer"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/event_date"
+            android:layout_alignLeft="@id/event_date"
+            android:layout_alignStart="@id/event_date"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
