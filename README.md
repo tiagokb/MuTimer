@@ -18,13 +18,12 @@
 # **Aprendizado**
   
     * Como meu primeiro app desenvolvido eu aprendi principalmente POO, na epoca estava fazendo um curso e ao entrar no modulo retrofit, eu resolvi em vez de desenvolver 
-    *  o app do curso, desenvolver meu proprio app assim eu enfrentaria desafios que teria que resolver por mim mesmo como por exemplo a questão da contagem regressiva.
+     * o app do curso, desenvolver meu proprio app assim eu enfrentaria desafios que teria que resolver por mim mesmo como por exemplo a questão da contagem regressiva.
         aprendi a usar o retrofit e fazer requisições web, hoje conhecimentos um pouco ultrapassados mas serviu para um grande avanço no meu aprendizado. Foi de grande
     * importância tambem para desenvolver mais ainda minhas habilidades para organizar layouts, e sem duvidas o que eu mais aprendi foi a usar e entender Broadcast e
-    *  AlarmManager, agregando na bagagem Time, Calendar e alguns metodos do android.
+     * AlarmManager, agregando na bagagem Time, Calendar e alguns metodos do android.
           
 ### **IMPORTANTE** ### 
 
     * Atualmente o servidor do jogo não está mais online inutilizando totalmente o app, modo de escrita e arquitetura totalmente erronea e obsoleta
-                    *  Não pretendo atualizar o app nem reestruturar o codigo presente nele, mas optei por deixar ele aqui por ter grande valia no meu desenvolvimento como 
-                    desenvolvedor.
+     * Não pretendo atualizar o app nem reestruturar o codigo presente nele, mas optei por deixar ele aqui por ter grande valia no meu desenvolvimento como desenvolvedor.
